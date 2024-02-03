@@ -1,0 +1,11 @@
+.visit-to-museum {
+  @include page-grid;
+
+  background: #3f5252;
+
+  @include on-desktop {
+    background-image: url(../images/visit-to-museum-image.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
